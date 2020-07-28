@@ -1,0 +1,17 @@
+.title h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.title p {
+    font-size: 24px;
+    margin: 0;
+}
+
+.cardDesign {
+    background-color: whitesmoke;
+    opacity: .95;
+    border: 7px ridge #4a4a4a;
+    box-shadow: 5px 5px 15px 2px;
+    border-radius: 10px;
+}

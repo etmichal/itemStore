@@ -1,0 +1,35 @@
+main .itemCard {
+    display: flex;
+    width: 400px;
+    margin: 10px 0;
+    padding: 5px;
+}
+
+.itemCard .itemIcon img {
+    width: 70px;
+    height: auto;
+}
+
+.itemText {
+    width: 100%;
+    padding-right: 5px;
+}
+
+.itemText h3, .itemText p {
+    margin: 0 0 0 10px;
+    text-align: left;
+}
+
+.itemText div:nth-child(1) {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.itemText div:nth-child(1) p {
+    text-align: right;
+}
+
+.itemText p:nth-child(2) {
+    font-style: italic;
+}

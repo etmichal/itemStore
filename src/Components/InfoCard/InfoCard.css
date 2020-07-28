@@ -1,0 +1,32 @@
+.item-details {
+    height: fit-content;
+    border: 4px black solid;
+    text-align: left;
+    padding: 10px 30px 20px 30px;
+    background-color: white;
+}
+
+.descHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-details h2 {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 0;
+}
+
+.item-details #item-type {
+    font-style: italic;
+    margin: 0;
+}
+
+.description {
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.empty {
+    width: 35em;
+}

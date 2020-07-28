@@ -1,0 +1,41 @@
+.item-selections {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+}
+
+p {
+    margin: 0;
+}
+
+.item-list {
+    text-align: left;
+    max-width: 40%;
+    display: block;
+    justify-content: center;
+}
+
+.list-header {
+    display: flex;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    color: white;
+    padding: 5px 10px 15px 10px;
+    background: url('../PopluateCards/brass-texture.jpg');
+    justify-content: space-between;
+    align-items: center;
+    border: 4px solid black;
+}
+
+.square {
+    background-color: white;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+
+
