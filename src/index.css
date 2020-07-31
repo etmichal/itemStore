@@ -1,12 +1,9 @@
 body {
+  height: 100%;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Palatino Linotype", serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  
-  
+  -moz-osx-font-smoothing: grayscale;  
 }
 
 header {
@@ -24,6 +21,15 @@ code {
 
 main {
   padding-top: 50px;
-  background: 
-  url('./wood-boards.jpg')
+  background: url('./wood-boards.jpg');
+  background-size: cover;
+  height: 100%;
+  background-color: black;
+}
+
+
+@media screen and (orientation: landscape) {
+  main {
+    height: 100vh;
+  }
 }

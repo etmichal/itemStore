@@ -11,16 +11,21 @@ class PopulateCards extends React.Component {
 
     handleClick(item) {
         this.props.updateDetails(item);
+        if(window.matchMedia("max-width: 935")) {
+            const overlay = document.querySelector('.empty');
+            overlay.style.display = "flex";
+        } else {
+            return;
+        }
     }
+    
 
     listItems(itemList) {
         let itemRendering = [];
         itemList.forEach(item => {
-            
             if(item.img === 'default') {
                 item.img = './consumable.png';
             }
-            
             itemRendering.push( 
                 <div key={item.id} className='itemCard cardDesign' onClick={() => this.handleClick(item)}>
                     <div className='itemIcon'>

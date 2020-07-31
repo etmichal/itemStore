@@ -16,7 +16,7 @@ class Items extends React.Component {
     }
 
     setItem(item) {
-        this.setState({item: item});
+        this.setState({ item: item });
     }
 
     render() {
@@ -24,24 +24,20 @@ class Items extends React.Component {
             <div className='item-selections'>
                 <div className='item-list'>
                     <div className='list-header'>
-                        <div className='square'></div>
                         <p>Consumable List</p>
-                        <div className='square'></div>
                     </div>
-                    <PopulateCards itemList={ consumableList } updateDetails={this.setItem}/>
+                    <PopulateCards itemList={consumableList} updateDetails={this.setItem} />
                 </div>
                 <div className='item-list'>
-                <div className='list-header'>
-                        <div className='square'></div>
+                    <div className='list-header'>
                         <p>Equipment List</p>
-                        <div className='square'></div>
                     </div>
-                    <PopulateCards itemList={ equipmentList } updateDetails={this.setItem}/>
+                    <PopulateCards itemList={equipmentList} updateDetails={this.setItem} />
                 </div>
-                <InfoCard item={this.state.item}/>
-                
+                <InfoCard item={this.state.item} />
+
             </div>
-            
+
         )
     }
 }

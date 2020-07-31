@@ -30,3 +30,45 @@
 .empty {
     width: 35em;
 }
+
+@media screen and (max-width: 1600px) {
+    .item-details {
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 935px) {
+    
+    .empty {
+        position: fixed;
+        top: 50%;
+        transform: translate(0%, -50%);
+        z-index: 10;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(51, 51, 51, .5);
+        display: flex;
+        justify-content: center;
+        display: none;
+    }
+
+    .empty .item-details {
+        box-shadow: none;
+        position: relative;
+        margin: auto;
+        opacity: 1;
+        width: 70%;
+        padding-bottom: 10px;
+    }
+
+    .empty .item-details #close-button {
+        text-align: center;
+        font-size: 2em;
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        margin: 10px auto 0px auto;
+        background-color: rgb(43, 43, 43);
+        color: white;
+    }
+}

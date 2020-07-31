@@ -14,4 +14,11 @@
     border: 7px ridge #4a4a4a;
     box-shadow: 5px 5px 15px 2px;
     border-radius: 10px;
+    min-width: 420px;
+}
+
+@media screen and (max-width: 935px) {
+    .cardDesign {
+        min-width: auto;
+    }
 }

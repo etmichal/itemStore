@@ -3,6 +3,7 @@ main .itemCard {
     width: 400px;
     margin: 10px 0;
     padding: 5px;
+    cursor: pointer;
 }
 
 .itemCard .itemIcon img {
@@ -32,4 +33,12 @@ main .itemCard {
 
 .itemText p:nth-child(2) {
     font-style: italic;
+}
+
+@media screen and (max-width: 935px) {
+   
+    main .itemCard {
+        display: flex;
+        width: auto;
+    }
 }
